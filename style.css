@@ -104,7 +104,7 @@ img {
     transform: scale(1.1);
 }
 
-#AboutMe {
+#AboutMe, #Setup, #Apps {
     width: 60%;
     margin-right: auto;
     margin-left: auto;
@@ -115,6 +115,12 @@ img {
     border: 2px solid rgba(255,255,255,0.18);
     align-content: center;
 }
+#nocenter{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
 
 footer {

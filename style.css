@@ -6,7 +6,7 @@ html,body {
 
 body {
     background-image:url(Macos\ Mojave\ Includes\ Two\ Desert\ Themed\ Wallpaper\ Here.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size:cover;
 }
 #mainmain {
@@ -102,6 +102,18 @@ img {
 
 .circle:hover {
     transform: scale(1.1);
+}
+
+#AboutMe {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
+    border: 2px solid rgba(255,255,255,0.18);
+    align-content: center;
 }
 
 

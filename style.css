@@ -13,6 +13,11 @@ body {
     height: 100%;
 }
 
+.white {
+    color: white;
+    text-decoration: none;
+}
+
 #main {
     width: 30%;
     margin-right: auto;
@@ -44,7 +49,7 @@ body {
     justify-content: center;
 }
 
-a {
+.alink {
     height: 50px;
     width: 100%;
     text-decoration: none;
@@ -75,3 +80,18 @@ footer {
     margin-bottom: 0;
     text-align: right;
 }
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  
+  .fadeInUp-animation {
+    animation: 1.5s fadeInUp;
+  }

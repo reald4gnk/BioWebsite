@@ -22,7 +22,7 @@ body {
     width: 30%;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 50%;
+
     text-align: center;
     border-radius: 20px;
     backdrop-filter: blur(30px);
@@ -73,11 +73,39 @@ img {
     margin-top: 20px;
 }
 
+.arrowcircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.circle {
+    height: 50px;
+    width: 50px;
+    color: black;
+    background-color: white;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    a {
+        color: black;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+}
+
+.circle:hover {
+    transform: scale(1.1);
+}
 
 
 footer {
-    margin-bottom: 0;
     text-align: right;
 }
 

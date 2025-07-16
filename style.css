@@ -9,10 +9,12 @@ body {
     background-repeat: no-repeat;
     background-size:cover;
 }
+#mainmain {
+    height: 100%;
+}
 
 #main {
     width: 30%;
-    height: 50%;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 50%;

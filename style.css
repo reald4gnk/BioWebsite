@@ -112,6 +112,7 @@ img {
     height: 400px;
     border-radius: 0px;
     padding: 5px;
+    
 }
 
 #AboutMe, #Setup, #Apps, #Media, #Gallery {
@@ -125,6 +126,7 @@ img {
     border: 2px solid rgba(255,255,255,0.18);
     align-content: center;
     padding: 5px;
+    
 }
 #nocenter{
     text-align: left;

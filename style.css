@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: #0f0f0f;
     background-repeat: repeat-y;
     background-size:cover;
 }
@@ -16,7 +16,7 @@ body {
 }
 
 .white {
-    color: white;
+    color: #f0f0f0;
     text-decoration: none;
 }
 
@@ -24,13 +24,13 @@ body {
     width: 30%;
     margin-right: auto;
     margin-left: auto;
-
     text-align: center;
     border-radius: 20px;
     backdrop-filter: blur(30px);
     box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
     border: 2px solid rgba(255,255,255,0.18);
     align-content: center;
+    padding: 5px;
 }
 
 #link {
@@ -49,13 +49,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 3px;
 }
 
 .alink {
     height: 50px;
     width: 100%;
     text-decoration: none;
-    color: white;
+    color: #f0f0f0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,7 +66,7 @@ body {
 
 #link:hover {
     border-radius: 45px;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 img {
@@ -110,6 +111,7 @@ img {
     width: 300px;
     height: 400px;
     border-radius: 0px;
+    padding: 5px;
 }
 
 #AboutMe, #Setup, #Apps, #Media, #Gallery {
@@ -119,9 +121,10 @@ img {
     text-align: center;
     border-radius: 20px;
     backdrop-filter: blur(30px);
-    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
+    box-shadow: 3px 3px 20px rgba(227,228,237,0.37);
     border: 2px solid rgba(255,255,255,0.18);
     align-content: center;
+    padding: 5px;
 }
 #nocenter{
     text-align: left;
